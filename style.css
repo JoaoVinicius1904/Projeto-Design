@@ -57,13 +57,15 @@ header {
 }
 
 header img {
+	margin: 50px;
 	max-width: 150px;
 	margin-bottom: 20px;
 	transition: .2s;
 }
+
 header img:hover {
-		transform: scale(1.10);
-	}
+	transform: scale(1.10);
+}
 
 header h1 {
 	font-size: 2em;
@@ -124,7 +126,7 @@ footer a.btn-footer {
 .txt-rodape {
 	text-align: center;
 	font-size: 18px;
-	margin: 30px 0;
+	margin: 10px 0;
 	color: #fff;
 	line-height: 20px;
 }
